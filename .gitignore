@@ -2,6 +2,8 @@
 *.retry
 .DS_Store
 .vscode-root
+.venv
+.vagrant
 test.yml
 tests/local-test.yml
 tests/.vagrant
@@ -18,4 +20,6 @@ include/
 lib/
 pip-selfcheck.json
 share/
+Vagrantfile
+
 
