@@ -82,7 +82,6 @@
   notify: generate new grub config
   when:
       - rhel7cis_rule_4_1_3
-      - not rhel7cis_rhel6
   tags:
       - level2
       - auditd

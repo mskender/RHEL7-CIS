@@ -270,7 +270,7 @@
 
 - name: "SCORED | 2.2.1.2 | PATCH | Ensure ntp is configured | modify /etc/sysconfig/ntpd"
   lineinfile:
-      dest: "{{ '/etc/sysconfig/ntp' if ansible_os_family == 'Suse' else '/etc/sysconfig/ntpd' }}"
+      dest: /etc/sysconfig/ntpd
       regexp: "^(#)?OPTIONS"
       line: "OPTIONS=\"-u ntp:ntp\""
   when:

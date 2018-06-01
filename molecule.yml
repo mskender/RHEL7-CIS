@@ -10,7 +10,7 @@ driver:
   name: docker
 docker:
   containers:
-    - name: docker
+    - name: CentOS7-systemd
       image: centos/systemd
       image_version: latest
       privileged: True
