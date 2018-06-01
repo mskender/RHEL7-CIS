@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+molecule = "==1.25.1"
+yamllint = "==1.8.1"
+python-vagrant = "==0.5.15"
+docker = "*"
+
+[requires]
+python_version = "2.7"

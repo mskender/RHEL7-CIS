@@ -1,4 +1,4 @@
-Linux CIS - Supports RHEL6/7, CentOS6/7, SLES12
+RedHat Enterprise Linux 7 CIS compliancy.
 ================
 Based on the exellent work done by the MindPointGroup [Ansible Role](https://img.shields.io/ansible/role/16089.svg)](https://galaxy.ansible.com/MindPointGroup/RHEL7-CIS/)
 
@@ -23,13 +23,6 @@ With this in the file requirements.yml:
 ```
 
 Based on [CIS RedHat Enterprise Linux 7 Benchmark v2.1.1 - 01-31-2017 ](https://community.cisecurity.org/collab/public/index.php).
-
-
-Support for the following ruleset (however ruleset descriptions might not match the numbering of CIS):
-[RHEL 6 CIS 2.1.0](https://community.cisecurity.org/collab/public/index.php).
-[CentOS 6 CIS 2.1.0](https://community.cisecurity.org/collab/public/index.php).
-[CentOS 7 CIS 2.1.0](https://community.cisecurity.org/collab/public/index.php).
-[Suse 12 CIS 2.0.0](https://community.cisecurity.org/collab/public/index.php).
 
 This repo originated from work done by [Sam Doran](https://github.com/samdoran/ansible-role-stig)
 
