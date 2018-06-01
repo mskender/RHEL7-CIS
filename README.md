@@ -4,8 +4,6 @@ Based on the exellent work done by the MindPointGroup [Ansible Role](https://img
 
 Configure RHEL/Centos 7 machine to be [CIS](https://www.cisecurity.org/cis-benchmarks/) compliant. Level 1 and 2 findings will be corrected by default.
 
-Since Schuberg Philis still wants to merge the work from the MindPointGroup into this fork, we have kept the tags & naming conventions as close as possible to the original version (i.e. all tags still start with rhel7cis\_ .). 
-
 ## Warning on use
 
 This role **will make changes to the system** that could break things. This is not an auditing tool but rather a remediation tool to be used after an audit has been conducted.
