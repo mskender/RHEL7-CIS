@@ -31,7 +31,7 @@
 
 - name: "PRELIM | Check if prelink package is installed"
   command: rpm -q prelink
-  warn: no
+#  warn: no
   register: prelink_installed
   changed_when: no
   failed_when: no
@@ -41,7 +41,7 @@
 
 - name: "PRELIM | Check if postfix package is installed"
   command: rpm -q postfix
-  warn: no
+#  warn: no
   register: postfix_installed
   changed_when: no
   failed_when: no
@@ -55,14 +55,14 @@
   register: xinetd_service_status
   changed_when: no
   check_mode: no
-  warn: no
+  warn: false
 
 - name: "PRELIM | Check for ntpd service"
   shell: systemctl show ntpd | grep LoadState | cut -d = -f 2
   register: ntpd_service_status
   changed_when: no
   check_mode: no
-  warn: no
+  warn: false
 
 - name: "PRELIM | Check for chronyd service"
   shell: systemctl show chronyd | grep LoadState | cut -d = -f 2
