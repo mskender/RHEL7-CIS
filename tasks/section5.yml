@@ -573,7 +573,7 @@
       - rule_5.4.4
 
 - name: "SCORED | 5.5 | PATCH | Ensure root login is restricted to system console"
-  file:
+  copy:
     src: etc/securetty
     dest: /etc/securetty
     owner: root
